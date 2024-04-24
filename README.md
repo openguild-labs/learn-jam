@@ -4,18 +4,31 @@
 ```mermaid
 mindmap
   Join-Accumulate Machine
+    Non-upgradable
+    Networking
+      QUIC Protocol
+        Direct Point-to-Point Connections
+      No Gossiping
+      Grid Diffusal
+    Efficient Block Production
+      SAFROLE
+        SASSAFRAS simplication
+        Minimally opinionated as possible
+        SNARK-based block production algorithm
+    Efficient Block Processing
+      Pipelining 
     Domain-specific Chain
       Rollup Reactor
-        Rollups
-          Optimistic Rollup
-          Zero-knowledge Rollup
+        High Resilient Data Availability
+        Rollup Hosting
     Smart Contract Similarity
       Permissionless Code Execution
       State Encapsulation & Partition
         Service
           I/O
             Work Package (Input)
-              Work Item  
+              Work Item
+              Core Assignment
             Work Report (Output)
               Work Result
           Parachain as a Service
@@ -24,11 +37,31 @@ mindmap
             Refine
             Accumulate
             OnTransfer
+    Polkadot Virtual Machine
+      RISC-V ISA
+      Deterministic
+      Consensus-sensitive
+      Friendly to metering
+      Lacks complexity and excessive opinionation
+    Backwar Compability
+      Polkadot SDK
+      Agile Coretime
+    Full XCMP Support
+    Transactionless
+      Metering
+      Agile Coretime
+      Extrinsic
+        Security Framework
+          Guarantees
+          Assurances
+          Judgments
+        Preimages
+        Tickets
     Polkadot
       Distributed Data Availability
-      Shared Security
-      Parachain Cores
-      Substrate
+        Parachain Core
+      Auditing and guarantees system for computation
+        Shared Security
 ```
 ## Resources
 - [JAM Gray Paper](https://graypaper.com/)

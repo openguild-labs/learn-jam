@@ -1,4 +1,7 @@
 # Awesome JAM
+
+<img width="100%" alt="Screenshot 2024-04-24 at 22 45 52" src="https://github.com/openguild-labs/awesome-jam/assets/56880684/c377e5cb-dcae-4a4e-9084-e8c1bd463701">
+
 Everything you need to know about Join-Accumulate Machine (JAM)
 - [JAM Gray Paper](https://graypaper.com/)
 - [Polkadot Wiki - Learn JAM chain](https://wiki.polkadot.network/docs/learn-jam-chain)

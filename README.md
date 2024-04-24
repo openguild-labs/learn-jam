@@ -43,7 +43,7 @@ mindmap
       Consensus-sensitive
       Friendly to metering
       Lacks complexity and excessive opinionation
-    Backwar Compability
+    Backward Compability
       Polkadot SDK
       Agile Coretime
     Full XCMP Support

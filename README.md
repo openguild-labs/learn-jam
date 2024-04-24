@@ -1,6 +1,5 @@
-# Awesome JAM
+# Knowledge Map for JAM
 
-## Content
 ```mermaid
 mindmap
   id)Join-Accumulate Machine(
@@ -63,6 +62,13 @@ mindmap
       Auditing and guarantees system for computation
         Shared Security
 ```
+## Gray Paper Notes
+### About the limitations of Polkadot in its parachain model
+<img width="100%" alt="Screenshot 2024-04-25 at 00 06 14" src="https://github.com/openguild-labs/awesome-jam/assets/56880684/1c218d5d-0dac-499b-9ee7-da881b5288f8">
+
+### Data availability scaling in Ethereum
+<img width="1233" alt="Screenshot 2024-04-25 at 00 08 12" src="https://github.com/openguild-labs/awesome-jam/assets/56880684/b3a0eeef-d91f-495f-8d59-267983f67180">
+
 ## Resources
 - [JAM Gray Paper](https://graypaper.com/)
 - [Polkadot Wiki - Learn JAM chain](https://wiki.polkadot.network/docs/learn-jam-chain)

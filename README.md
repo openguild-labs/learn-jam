@@ -3,7 +3,7 @@
 ## Content
 ```mermaid
 mindmap
-  Join-Accumulate Machine
+  id)Join-Accumulate Machine(
     Non-upgradable
     Networking
       QUIC Protocol

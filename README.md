@@ -66,11 +66,14 @@ mindmap
 ```mermaid
 mindmap
   Relevant to JAM Knowledge
-    Polkadot
+    Polkadot 
       Independent Ecosystems
+        Isolated Parachains
       Accessbility Limitations
+        XCMP
       Composability
         SPREE
+        Synchronous Composability
     Ethereum Scalability
       Data Availability
         Dank-sharding
@@ -85,6 +88,19 @@ mindmap
           Stalling
           Censorship
         Economic Properties
+    Network Model
+      High-Performance Fully Synchronous Networks
+        Solana
+          Structural Centralization
+          Undermined Resilience
+          Coherent Execution Model
+      Fragmented Meta-Networks
+        No Synchronous Composability
+          Ethereum's Isolated Roll-up chains
+          Polkadot's Isolated Parachains
+        No Homogenous Security
+          Cosmos
+        Homogenous Consensus Mechanic
     Zero-knowledge Proofs
       SNARK
         Complexity

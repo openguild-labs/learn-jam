@@ -1,5 +1,5 @@
 # Knowledge Map for JAM
-
+## About Join-Accumulate Machine
 ```mermaid
 mindmap
   id)Join-Accumulate Machine(
@@ -61,6 +61,42 @@ mindmap
         Parachain Core
       Auditing and guarantees system for computation
         Shared Security
+```
+## Relevant Knowledge in the Gray Paper
+```mermaid
+mindmap
+  Relevant to JAM Knowledge
+    Polkadot
+      Independent Ecosystems
+      Accessbility Limitations
+      Composability
+        SPREE
+    Ethereum Scalability
+      Data Availability
+        Dank-sharding
+      Roll-ups
+        ZK-SNARK-based Roll-ups
+        Heterogeneous Communication Properties
+          Datagran
+          Semantic Range
+        Security Properties
+          Cost of reversion
+          Corruption
+          Stalling
+          Censorship
+        Economic Properties
+    Zero-knowledge Proofs
+      SNARK
+        Complexity
+          Verification
+          Computation
+        RSIC-Zero
+        SNARK Circuit
+          Prover
+          Verifier
+        SNARK Proof
+          Proof Generation
+        Co-processor Model
 ```
 ## Gray Paper Notes
 ### About the limitations of Polkadot in its parachain model

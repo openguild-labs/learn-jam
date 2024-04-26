@@ -1,4 +1,4 @@
-<img width="698" alt="Screenshot 2024-04-26 at 14 09 17" src="https://github.com/openguild-labs/learn-jam/assets/56880684/f7826f54-b484-4fd1-9359-2b13aa7354dd"># Knowledge Map for JAM
+# Knowledge Map for JAM
 ## About Join-Accumulate Machine
 ```mermaid
 mindmap
@@ -120,6 +120,7 @@ mindmap
           Proof Generation
         Co-processor Model
 ```
+
 ## JAM Breakdown
 ### Service Model
 

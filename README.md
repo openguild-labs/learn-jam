@@ -4,6 +4,7 @@
 mindmap
   id)Join-Accumulate Machine(
     Non-upgradable
+      Fixed Parameters
     Networking
       QUIC Protocol
         Direct Point-to-Point Connections
@@ -21,6 +22,7 @@ mindmap
         High Resilient Data Availability
         Rollup Hosting
     Smart Contract Similarity
+      Token Hosting
       Permissionless Code Execution
       State Encapsulation & Partition
         Service
@@ -48,7 +50,7 @@ mindmap
     Full XCMP Support
     Transactionless
       Metering
-      Agile Coretime
+      No transaction distribution/pool
       Extrinsic
         Security Framework
           Guarantees
@@ -57,6 +59,9 @@ mindmap
         Preimages
         Tickets
     Polkadot
+      Capability
+        Agile Coretime
+        Parachain
       Distributed Data Availability
         Parachain Core
       Auditing and guarantees system for computation

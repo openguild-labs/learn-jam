@@ -1,4 +1,4 @@
-# Knowledge Map for JAM
+<img width="698" alt="Screenshot 2024-04-26 at 14 09 17" src="https://github.com/openguild-labs/learn-jam/assets/56880684/f7826f54-b484-4fd1-9359-2b13aa7354dd"># Knowledge Map for JAM
 ## About Join-Accumulate Machine
 ```mermaid
 mindmap
@@ -68,6 +68,7 @@ mindmap
         Shared Security
 ```
 ## Relevant Knowledge in the Gray Paper
+
 ```mermaid
 mindmap
   Relevant to JAM Knowledge
@@ -119,6 +120,11 @@ mindmap
           Proof Generation
         Co-processor Model
 ```
+## JAM Breakdown
+### Service Model
+
+<img width="100%" alt="Screenshot 2024-04-26 at 14 09 51" src="https://github.com/openguild-labs/learn-jam/assets/56880684/85570a40-fde5-40f9-9fdb-8680a97e24ed">
+
 ## Gray Paper Notes
 ### About the limitations of Polkadot in its parachain model
 <img width="100%" alt="Screenshot 2024-04-25 at 00 06 14" src="https://github.com/openguild-labs/awesome-jam/assets/56880684/1c218d5d-0dac-499b-9ee7-da881b5288f8">

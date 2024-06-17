@@ -133,6 +133,24 @@ mindmap
 ### Data availability scaling in Ethereum
 <img width="1233" alt="Screenshot 2024-04-25 at 00 08 12" src="https://github.com/openguild-labs/awesome-jam/assets/56880684/b3a0eeef-d91f-495f-8d59-267983f67180">
 
+## Polkadot
+### Decision of Polkadot
+- Decisions that can be easily changed in the future.
+- Features can be included into the protocol at later time
+- Changes can be considered as part of the evolution of the protocol
+
+### Philosophies of Polkadot
+- Less trust more truth. Removing powerful incumbent, decentralizing the power
+- Right now, it is hard to create a system that has no trust at all. We can only reduce the level of trust
+- Against blockchain maximalism. Chain agnostic. Polkadot aims at becoming a one protocol for the whole network
+- "The best blockchain today will not be the best blockchain tomorrow"
+- Polkadot aims to be a blockchain that can last for hundred years instead of being the "go-to-market" products.
+- Goals of Polkadot
+  - Blockchain scalability trilemma: Security, Scalability, Decentralization. Have to sacrifire one of the key attributes to support the another twos.
+  - Polkadot tries to solve as much as they can all the aspects of the trilemma.
+  - Polkadot's mission is to provide secure, scalable and resilient infrastructure for Web3 applications and services
+- Computatal scalability, interoperability, shared security
+
 ## Resources
 - [JAM Gray Paper](https://graypaper.com/)
 - [Polkadot Wiki - Learn JAM chain](https://wiki.polkadot.network/docs/learn-jam-chain)

@@ -147,6 +147,11 @@ Link to visualization: https://excalidraw.com/
     - The stake is evenly distributed between the active validators so the all have equal voting power in the upcoming game
 - Goals of Parchain Consensus: `Scalabilityyyyy`
   - Sharding crucially allows us to parallelize. Ensure not too much duplication of data. Everyone executes everything is not scalable at all
+
+### Execution Sharding in Polkadot
+- Issue in scalability in blockchain: Everyone checking everything is sacrificing scalability for security
+- Optimiziation: Escalation when faults detected, everyone will check everything. We temporarily break sharding to ensure security
+
 ## Relevant Knowledge in the Gray Paper
 
 ```mermaid

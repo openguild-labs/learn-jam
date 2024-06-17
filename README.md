@@ -135,6 +135,18 @@ Link to visualization: https://excalidraw.com/
     - WASM is unfortunately still 2x slower than native compilation
     - Requires lot of data being provided and available in PoV
 
+### Multichain Network - Parachains
+- What is Parachain Consensus?
+  - Three pillars of Polkadot: NPoS, Gov, Parachains
+    - NPoS: Provide player information in the game
+    - Gov: Figure out the way to adjusting the game
+    - Parachains: Scheduling, Execution and Consensus
+  - NPOS:
+    - Every 24h, an algorithmic election is held and a set of 300 validators is chosen - they will be the active validator set
+    - Active set of validators is backed by ~50% if the total DOT supply
+    - The stake is evenly distributed between the active validators so the all have equal voting power in the upcoming game
+- Goals of Parchain Consensus: `Scalabilityyyyy`
+  - Sharding crucially allows us to parallelize. Ensure not too much duplication of data. Everyone executes everything is not scalable at all
 ## Relevant Knowledge in the Gray Paper
 
 ```mermaid

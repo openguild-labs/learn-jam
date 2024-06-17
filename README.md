@@ -143,10 +143,12 @@ Link to visualization: https://excalidraw.com/
 - Type 1 decisions of Polkadot:
   - XCMP is the core design of Polkadot. Bridges in the blockchain world is insecure and having a transport protocol lyings in the core of the protocol to power shardeds of the network.
   - Any consumer hardware can be used to run the validator node. While Solana relies on 21 Solana experts for the operation of the network.
+  - OpenGov
 - Type 2 decisions of Polkadot:
   - Parachains would be long term applications-chains
   - Services and agile coretime changed taht viewpoint to also include applications that can spin-up and spin-down at will
-  - Even though XCMP is a type 1 decision, the language is not (XCM). The language can be changed but the protocol can't 
+  - Even though XCMP is a type 1 decision, the language is not (XCM). The language can be changed but the protocol can't
+  - Treasury & Fellowship
 ### Philosophies of Polkadot
 - Less trust more truth. Removing powerful incumbent, decentralizing the power
 - Right now, it is hard to create a system that has no trust at all. We can only reduce the level of trust

@@ -67,6 +67,42 @@ mindmap
       Auditing and guarantees system for computation
         Shared Security
 ```
+## Polkadot
+- Scalable, heterogenous, sharded, multi-chain network
+- Permissionless and ubiquitous computer
+- Decentralized open-source community
+- Digital-native sovereign network
+### BREAKDOWN of Polkadot
+Link to visualization: https://excalidraw.com/
+### Decision of Polkadot
+- Decisions that can be easily changed in the future.
+- Features can be included into the protocol at later time
+- Changes can be considered as part of the evolution of the protocol
+- Type 1 decisions of Polkadot:
+  - XCMP is the core design of Polkadot. Bridges in the blockchain world is insecure and having a transport protocol lyings in the core of the protocol to power shardeds of the network.
+  - Any consumer hardware can be used to run the validator node. While Solana relies on 21 Solana experts for the operation of the network.
+  - OpenGov
+- Type 2 decisions of Polkadot:
+  - Parachains would be long term applications-chains
+  - Services and agile coretime changed taht viewpoint to also include applications that can spin-up and spin-down at will
+  - Even though XCMP is a type 1 decision, the language is not (XCM). The language can be changed but the protocol can't
+  - Treasury & Fellowship
+### Philosophies of Polkadot
+- Less trust more truth. Removing powerful incumbent, decentralizing the power
+- Right now, it is hard to create a system that has no trust at all. We can only reduce the level of trust
+- Against blockchain maximalism. Chain agnostic. Polkadot aims at becoming a one protocol for the whole network
+- "The best blockchain today will not be the best blockchain tomorrow"
+- Polkadot aims to be a blockchain that can last for hundred years instead of being the "go-to-market" products.
+- Goals of Polkadot
+  - Blockchain scalability trilemma: Security, Scalability, Decentralization. Have to sacrifire one of the key attributes to support the another twos.
+  - Polkadot tries to solve as much as they can all the aspects of the trilemma.
+  - Polkadot's mission is to provide secure, scalable and resilient infrastructure for Web3 applications and services
+- Computatal scalability, interoperability, shared security
+  - In Cosmos, each shard has its own security
+- Code is Law, there is no large voice that can force the network to upgrade or not
+- Polkadot has designed at its core a self-funded treasury pool to incentivize the development and evolution of the protocol
+  - Trust-free system, without any middleman or authority, anyone can still fund for the development of the protocol
+
 ## Relevant Knowledge in the Gray Paper
 
 ```mermaid
@@ -122,6 +158,19 @@ mindmap
 ```
 
 ## JAM Breakdown
+### What is JAM?
+- Unchanged
+  - Philosophies of Polkadot
+  - Goals of Polkadot
+    - Parallel Execution and Heterogenous Sharding
+    - Shared Security
+    - Interoperability
+- Changed
+  - Upgradability of the core protocol
+    - Substrate -> JAM chain
+  - Services (as a superset of parachains)
+  - WASM -> PolkaVM (RISC-V)
+  - Synchronous Communication Capabilities
 ### Service Model
 
 <img width="100%" alt="Screenshot 2024-04-26 at 14 09 51" src="https://github.com/openguild-labs/learn-jam/assets/56880684/85570a40-fde5-40f9-9fdb-8680a97e24ed">
@@ -132,38 +181,6 @@ mindmap
 
 ### Data availability scaling in Ethereum
 <img width="1233" alt="Screenshot 2024-04-25 at 00 08 12" src="https://github.com/openguild-labs/awesome-jam/assets/56880684/b3a0eeef-d91f-495f-8d59-267983f67180">
-
-## Polkadot
-### BREAKDOWN of Polkadot
-Link to visualization: https://excalidraw.com/
-### Decision of Polkadot
-- Decisions that can be easily changed in the future.
-- Features can be included into the protocol at later time
-- Changes can be considered as part of the evolution of the protocol
-- Type 1 decisions of Polkadot:
-  - XCMP is the core design of Polkadot. Bridges in the blockchain world is insecure and having a transport protocol lyings in the core of the protocol to power shardeds of the network.
-  - Any consumer hardware can be used to run the validator node. While Solana relies on 21 Solana experts for the operation of the network.
-  - OpenGov
-- Type 2 decisions of Polkadot:
-  - Parachains would be long term applications-chains
-  - Services and agile coretime changed taht viewpoint to also include applications that can spin-up and spin-down at will
-  - Even though XCMP is a type 1 decision, the language is not (XCM). The language can be changed but the protocol can't
-  - Treasury & Fellowship
-### Philosophies of Polkadot
-- Less trust more truth. Removing powerful incumbent, decentralizing the power
-- Right now, it is hard to create a system that has no trust at all. We can only reduce the level of trust
-- Against blockchain maximalism. Chain agnostic. Polkadot aims at becoming a one protocol for the whole network
-- "The best blockchain today will not be the best blockchain tomorrow"
-- Polkadot aims to be a blockchain that can last for hundred years instead of being the "go-to-market" products.
-- Goals of Polkadot
-  - Blockchain scalability trilemma: Security, Scalability, Decentralization. Have to sacrifire one of the key attributes to support the another twos.
-  - Polkadot tries to solve as much as they can all the aspects of the trilemma.
-  - Polkadot's mission is to provide secure, scalable and resilient infrastructure for Web3 applications and services
-- Computatal scalability, interoperability, shared security
-  - In Cosmos, each shard has its own security
-- Code is Law, there is no large voice that can force the network to upgrade or not
-- Polkadot has designed at its core a self-funded treasury pool to incentivize the development and evolution of the protocol
-  - Trust-free system, without any middleman or authority, anyone can still fund for the development of the protocol
 
 ## Resources
 - [JAM Gray Paper](https://graypaper.com/)

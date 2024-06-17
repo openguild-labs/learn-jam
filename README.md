@@ -73,7 +73,7 @@ mindmap
 - Decentralized open-source community
 - Digital-native sovereign network
 ### BREAKDOWN of Polkadot
-Link to visualization: https://excalidraw.com/
+Link to visualization: https://excalidraw.com/#json=ZBFCg51aQll69Aixf8RCm,68eF4YINi8ugyLep43szkQ
 ### Decision of Polkadot
 - Decisions that can be easily changed in the future.
 - Features can be included into the protocol at later time

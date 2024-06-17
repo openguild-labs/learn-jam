@@ -118,7 +118,21 @@ Link to visualization: https://excalidraw.com/
 - Parchain Validation
   - Maximizing Scaling: Security is as shared as possible, execution is as shared as possible
   - Execution Sharding:
-    - Process of distributing blockchain execution responsiblities across a validator set 
+    - Process of distributing blockchain execution responsiblities across a validator set
+- Polkadot Native Shared Security
+  - Pros
+    - Protocol level handling of sharding, shared security, and interoperability
+    - Easy to develop STF: Anything that compiles to WASM
+    - Probably the best time to finality, usually under a minute.
+    - Data availability provided by the existing validators.
+    - Much less concern of centralization from collators vs sequencers and provers.
+  - Cons
+    - Cetain limitations enforced to keep parachains compatible with the parachains protocol
+      - WASM STF
+      - No Custom Host Function
+      - Constrained Execution Environment
+    - WASM is unfortunately still 2x slower than native compilation
+    - Requires lot of data being provided and available in PoV
 
 ## Relevant Knowledge in the Gray Paper
 

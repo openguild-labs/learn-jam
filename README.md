@@ -152,6 +152,12 @@ Link to visualization: https://excalidraw.com/
 - Issue in scalability in blockchain: Everyone checking everything is sacrificing scalability for security
 - Optimiziation: Escalation when faults detected, everyone will check everything. We temporarily break sharding to ensure security (Only the shard which is malicious)
 
+### Data availability on Polkadot
+- If we bring all the data from the parachain to the relaychain, one day it can be recorded up to 72GB
+- How do we ensure a  piece of data is retrievable without storing it on every single node forever?
+- Incorrectness can be proven (merkle proofs), but unavailability can't
+- Polkadot Data Availability layer
+
 ## Relevant Knowledge in the Gray Paper
 
 ```mermaid

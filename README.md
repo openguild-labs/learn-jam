@@ -119,6 +119,7 @@ Link to visualization: https://excalidraw.com/
   - Maximizing Scaling: Security is as shared as possible, execution is as shared as possible
   - Execution Sharding:
     - Process of distributing blockchain execution responsiblities across a validator set
+  - PoV is distributed to the validators and use enrasure coding to trace back the full data of the PoV. If one validator has a malicious action, it will be reported by the spreaded out validator set
 - Polkadot Native Shared Security
   - Pros
     - Protocol level handling of sharding, shared security, and interoperability

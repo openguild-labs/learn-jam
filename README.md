@@ -102,6 +102,19 @@ Link to visualization: https://excalidraw.com/
 - Code is Law, there is no large voice that can force the network to upgrade or not
 - Polkadot has designed at its core a self-funded treasury pool to incentivize the development and evolution of the protocol
   - Trust-free system, without any middleman or authority, anyone can still fund for the development of the protocol
+### Shared Security
+- Security in blockchain prevents the double-spending attack by verifying the destination and duplication of the transaction through consensus
+- Government cuts off the head of the hydra, but more heads grow.
+- Economic cost: Slashing the malicious node, which would produce economic lost of the tokens in the network
+- Different forms of "Shared Security":
+  - Layer 0 security in the underlying core architecutre of the protocol (Polkadot)
+  - Rollups: A separate shard from the layer 1 protocol and use the settlement layer to provide security for the rollups
+  - Restaking: Eigenlayer, some protocols allow the use of already staked tokens to secure another network, usually through the derivative tokens
+- Building blocks of shared security
+  - Execution meta-protocol (WASM)
+  - Coordination / Validation (Parachain protocol)
+  - Security hub / Settlement layer (Relaychain)
+- Polkadot Client is basically a WASM executor
 
 ## Relevant Knowledge in the Gray Paper
 
@@ -171,6 +184,8 @@ mindmap
   - Services (as a superset of parachains)
   - WASM -> PolkaVM (RISC-V)
   - Synchronous Communication Capabilities
+### Execution Meta-protocol
+https://github.com/koute/polkavm
 ### Service Model
 
 <img width="100%" alt="Screenshot 2024-04-26 at 14 09 51" src="https://github.com/openguild-labs/learn-jam/assets/56880684/85570a40-fde5-40f9-9fdb-8680a97e24ed">

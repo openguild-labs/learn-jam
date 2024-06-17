@@ -115,6 +115,10 @@ Link to visualization: https://excalidraw.com/
   - Coordination / Validation (Parachain protocol)
   - Security hub / Settlement layer (Relaychain)
 - Polkadot Client is basically a WASM executor
+- Parchain Validation
+  - Maximizing Scaling: Security is as shared as possible, execution is as shared as possible
+  - Execution Sharding:
+    - Process of distributing blockchain execution responsiblities across a validator set 
 
 ## Relevant Knowledge in the Gray Paper
 

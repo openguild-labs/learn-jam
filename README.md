@@ -150,7 +150,7 @@ Link to visualization: https://excalidraw.com/
 
 ### Execution Sharding in Polkadot
 - Issue in scalability in blockchain: Everyone checking everything is sacrificing scalability for security
-- Optimiziation: Escalation when faults detected, everyone will check everything. We temporarily break sharding to ensure security
+- Optimiziation: Escalation when faults detected, everyone will check everything. We temporarily break sharding to ensure security (Only the shard which is malicious)
 
 ## Relevant Knowledge in the Gray Paper
 

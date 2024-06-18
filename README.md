@@ -263,6 +263,20 @@ Virtual machine is used in two important parts of the Polkadot system: PVF and S
   - Existing compilers and toolchains can already easily target it. We don't need LLVM backend for RISC-V
 - PolkaVM - RISC-V based virtual machine made for a blockchain system
   - 300x compilation time faster than Wasmtime
+  - Custom bytecode designed for efficiency and speed
+    - Compatible with lazy execution
+  - Programs execute as fast as `wasmtime` while being over 320x faster to compile
+    - Most PolkaVM instructions can be translated 1-to-1 into native code.
+    > When compiling to x86, we don't need the optimizer. Precompiler is 1000 lines of code.
+    - Highly optimized implementation to find the limits of how fast we can go
+  - Guaranteed linear time compilation
+  - Guaranteed 100% determinism
+  - Sandboxing is feature complete, more secure than `wasmtime`
+    - ... guest programs run as another process
+    - ... guest programs run in another namespace (like Docker, but built-in)
+    - ... guest programs run under a strict seccomp sandbox. (how the program communicates with the operating system)
+  - Can run arbitrary C, C++ and Rust programs
+  - Can be used as an experimental executor in Substrate (can run Rococo) 
 
 ### Service Model
 

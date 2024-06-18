@@ -254,8 +254,15 @@ Virtual machine is used in two important parts of the Polkadot system: PVF and S
             - Baseline spec is constantly growing
               - 64-bit memory
               - https://github.com/CosmWasm/cosmwasm/issues/1727
-    - We want an ISA which is a register machine, simple, has a stable baseline, portable, well defined and standardized, already widely supported by compilers, guaranteed to be supported into the future, has enough features to compile arbitrary existing programs, doesn't force on us features which we don't need. 
+    - We want an ISA which is a register machine, simple, has a stable baseline, portable, well defined and standardized, already widely supported by compilers, guaranteed to be supported into the future, has enough features to compile arbitrary existing programs, doesn't force on us features which we don't need.
   - Excenllent compiler and tool chain support
+- About RISC-V
+  - CPU instruction set, like x86 or ARM
+  - Easy to write a recompiler (register-machine)
+  - Simple and standadized. Baseline spec has only 47 instructions
+  - Existing compilers and toolchains can already easily target it. We don't need LLVM backend for RISC-V
+- PolkaVM - RISC-V based virtual machine made for a blockchain system
+  - 300x compilation time faster than Wasmtime
 
 ### Service Model
 

@@ -226,8 +226,37 @@ mindmap
   - Services (as a superset of parachains)
   - WASM -> PolkaVM (RISC-V)
   - Synchronous Communication Capabilities
-### Execution Meta-protocol
-https://github.com/koute/polkavm
+### Execution Meta-protocol - [PolkaVM](https://github.com/koute/polkavm)
+Virtual machine is used in two important parts of the Polkadot system: PVF and STF (State Transition Function)
+- About WebAssembly
+  - Open, wel designed standard
+  - Huge ecosystem, multiple production-quality VMs available
+    - Wasmtime
+    > And Wasmer, Wasmi, WAVM, wazero, Wasm3, WasmEdge...
+      - Written in Rust by a team of world-class VM engieners
+      - Compiles WASM into native code (fast execution)
+      - Secure, very heavily tested and fuzzed
+      - Highest quality Wasm VM out there
+    - But
+      - Does not guarantee 100% determinism
+        - Guest stack is shared with the host stack (For example, some node calculation return 1 but some return 3 due to the different in the non-deterministic stack frame)
+        - WASM does not have a limit on how many function we can call inside each other
+        - Compilation times are not guaranteed to be O(n) and are quite slow. (PVF has prechecking compiles the program first offline to check if can be accepted)
+        - Missing features for PolkaJAM:
+          - Support for suspend + resume
+          - Blockchain-grade gas metering
+          - Dynamic guest page fault handling
+          - Is a stack machine, so it's hard to high performance and guaranteed O(n) compilation (needs register allocation, which is NP-complete). Limited number of registers but inifinite number of variables.
+          - Doesn't support lazy execution. For example, if we have 1MB program and we only want to execute a 100KB function, we have to load the whole 1MB to execute only 100KB function.
+          - A lot of features we don't need or want
+            - 172 instructions in WebAssembly 1.0
+            - 220 instructions in WebAssembly core as today
+            - Baseline spec is constantly growing
+              - 64-bit memory
+              - https://github.com/CosmWasm/cosmwasm/issues/1727
+    - We want an ISA which is a register machine, simple, has a stable baseline, portable, well defined and standardized, already widely supported by compilers, guaranteed to be supported into the future, has enough features to compile arbitrary existing programs, doesn't force on us features which we don't need. 
+  - Excenllent compiler and tool chain support
+
 ### Service Model
 
 <img width="100%" alt="Screenshot 2024-04-26 at 14 09 51" src="https://github.com/openguild-labs/learn-jam/assets/56880684/85570a40-fde5-40f9-9fdb-8680a97e24ed">

@@ -297,6 +297,7 @@ Virtual machine is used in two important parts of the Polkadot system: PVF and S
 - [Solidity compiler for PolkaVM](https://github.com/xermicus/revive)
 ### Ethereum Resources
 - [Ethereum Wire Protocol](https://github.com/ethereum/devp2p/blob/master/caps/eth.md)
+- [Ethereum Snap Protocol](https://github.com/ethereum/devp2p/blob/master/caps/snap.md)
 - [Ethereum White Paper](https://ethereum.github.io/yellowpaper/paper.pdf)
 - [Ethereum Metering Wiki](https://corepaper.org/ethereum/metering/)
 - [Broken Metre - Attacking Resource Metering in EVM](https://arxiv.org/pdf/1909.07220)

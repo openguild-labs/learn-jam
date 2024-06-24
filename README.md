@@ -295,7 +295,8 @@ Virtual machine is used in two important parts of the Polkadot system: PVF and S
 - [CoreJAM RFC (by Polkadot Fellows)](https://github.com/polkadot-fellows/RFCs/blob/006a9ff07c3d3bc5316c6bf63b05e966e694cc2d/text/corejam.md)
 - [sub0 Asia 2024 keynote - Gavin Wood on JAM A-Z](https://www.youtube.com/watch?v=tdvqkKdFTlw)
 - [Solidity compiler for PolkaVM](https://github.com/xermicus/revive)
-- WebAssembly Alternatives
+- Polkadot Virtual Machine Development
+  - [Stackoverflow - Registerd-based VM vs Stack-based VM](https://stackoverflow.com/questions/164143/registers-vs-stacks)
   - [Polkadot Forum Discussion: eBPF contracts hackathon](https://forum.polkadot.network/t/ebpf-contracts-hackathon/1084)
   - [Polkadot Forum Discussion: Exploring alternatives to WASM for smart contracts](https://forum.polkadot.network/t/exploring-alternatives-to-wasm-for-smart-contracts/2434)
 ### Ethereum Resources

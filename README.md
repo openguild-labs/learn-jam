@@ -243,7 +243,7 @@ Virtual machine is used in two important parts of the Polkadot system: PVF and S
         - WASM does not have a limit on how many function we can call inside each other
         - Compilation times are not guaranteed to be O(n) and are quite slow. (PVF has prechecking compiles the program first offline to check if can be accepted)
         - Missing features for PolkaJAM:
-          - Support for suspend + resume
+          - [Support for suspend + resume](https://github.com/WebAssembly/design/issues/1294)
           - Blockchain-grade gas metering
           - Dynamic guest page fault handling
           - Is a stack machine, so it's hard to high performance and guaranteed O(n) compilation (needs register allocation, which is NP-complete). Limited number of registers but inifinite number of variables.

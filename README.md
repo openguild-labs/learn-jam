@@ -301,4 +301,6 @@ Virtual machine is used in two important parts of the Polkadot system: PVF and S
 - [Ethereum White Paper](https://ethereum.github.io/yellowpaper/paper.pdf)
 - [Ethereum Metering Wiki](https://corepaper.org/ethereum/metering/)
 - [Broken Metre - Attacking Resource Metering in EVM](https://arxiv.org/pdf/1909.07220)
-
+### Solana Resources
+- [Turbine - Block propagation protocol on Solana](https://www.helius.dev/blog/turbine-block-propagation-on-solana): Why do we want to know about Turbine? The way Relaychain availability stage in the block inclusion pipeline works is quite similar to how Turbine works. In the context of the Polkadot's Relaychain, PoV is broken down into chunks (blocks are broken down into shreds in Solana) and propagated to active validator nodes of the Relaychain. Then erasure coding algorithm Reed Solomon is also used to ensure the validity and avilability of the validity proofs across the network.
+> Solana Turbine: Validator A builds and proposes a block. Validator 1 first breaks the block into sub-blocks called shreds through a process called shredding. Shredding splits the block data into Maximum Transmission Units (MTU)-sized data shreds (the maximum amount of data that can be sent from one node to the next without fragmenting it into smaller units) and generates corresponding recovery shreds via the Reed-Solomon erasure coding scheme. This scheme aids in data recovery and ensures data integrity during transmission, which is crucial for maintaining the security and reliability of the network.

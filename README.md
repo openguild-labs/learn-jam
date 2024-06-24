@@ -297,6 +297,7 @@ Virtual machine is used in two important parts of the Polkadot system: PVF and S
 - [Solidity compiler for PolkaVM](https://github.com/xermicus/revive)
 - Polkadot Virtual Machine Development
   - [Stackoverflow - Registerd-based VM vs Stack-based VM](https://stackoverflow.com/questions/164143/registers-vs-stacks)
+  - [Virtual Machine Showdown: Stack Versus Registers](https://static.usenix.org/events/vee05/full_papers/p153-yunhe.pdf)
   - [Polkadot Forum Discussion: eBPF contracts hackathon](https://forum.polkadot.network/t/ebpf-contracts-hackathon/1084)
   - [Polkadot Forum Discussion: Exploring alternatives to WASM for smart contracts](https://forum.polkadot.network/t/exploring-alternatives-to-wasm-for-smart-contracts/2434)
 ### Ethereum Resources

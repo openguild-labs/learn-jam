@@ -295,6 +295,8 @@ Virtual machine is used in two important parts of the Polkadot system: PVF and S
 - [CoreJAM RFC (by Polkadot Fellows)](https://github.com/polkadot-fellows/RFCs/blob/006a9ff07c3d3bc5316c6bf63b05e966e694cc2d/text/corejam.md)
 - [sub0 Asia 2024 keynote - Gavin Wood on JAM A-Z](https://www.youtube.com/watch?v=tdvqkKdFTlw)
 - [Solidity compiler for PolkaVM](https://github.com/xermicus/revive)
+### Ethereum Resources
+- [Ethereum White Paper](https://ethereum.github.io/yellowpaper/paper.pdf)
 - [Ethereum Metering Wiki](https://corepaper.org/ethereum/metering/)
 - [Broken Metre - Attacking Resource Metering in EVM](https://arxiv.org/pdf/1909.07220)
 

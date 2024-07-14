@@ -1,4 +1,7 @@
 # Knowledge Map for JAM
+
+![image](https://github.com/user-attachments/assets/a0b5e634-4300-4307-ae5d-cfe3bf8a7a0c)
+
 ## About Join-Accumulate Machine
 ```mermaid
 mindmap

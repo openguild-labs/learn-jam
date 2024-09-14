@@ -298,11 +298,15 @@ Virtual machine is used in two important parts of the Polkadot system: PVF and S
 - [CoreJAM RFC (by Polkadot Fellows)](https://github.com/polkadot-fellows/RFCs/blob/006a9ff07c3d3bc5316c6bf63b05e966e694cc2d/text/corejam.md)
 - [sub0 Asia 2024 keynote - Gavin Wood on JAM A-Z](https://www.youtube.com/watch?v=tdvqkKdFTlw)
 - [Solidity compiler for PolkaVM](https://github.com/xermicus/revive)
-- Polkadot Virtual Machine Development
-  - [Stackoverflow - Registerd-based VM vs Stack-based VM](https://stackoverflow.com/questions/164143/registers-vs-stacks)
-  - [Virtual Machine Showdown: Stack Versus Registers](https://static.usenix.org/events/vee05/full_papers/p153-yunhe.pdf)
-  - [Polkadot Forum Discussion: eBPF contracts hackathon](https://forum.polkadot.network/t/ebpf-contracts-hackathon/1084)
-  - [Polkadot Forum Discussion: Exploring alternatives to WASM for smart contracts](https://forum.polkadot.network/t/exploring-alternatives-to-wasm-for-smart-contracts/2434)
+- [Demystifying JAM](https://blog.kianenigma.nl/posts/tech/demystifying-jam)
+### PolkaVM Resources
+- [revive](https://github.com/xermicus/revive?tab=readme-ov-file)
+- [PolkaVM Solidity IDE](https://hackmd.io/@T6Wf5EsOQKe-6wyPjJPtuw/B11BK5QXC)
+- [Announcing a new RISC-V based VM for smart contracts](https://forum.polkadot.network/t/announcing-polkavm-a-new-risc-v-based-vm-for-smart-contracts-and-possibly-more/3811)
+- [Stackoverflow - Registerd-based VM vs Stack-based VM](https://stackoverflow.com/questions/164143/registers-vs-stacks)
+- [Virtual Machine Showdown: Stack Versus Registers](https://static.usenix.org/events/vee05/full_papers/p153-yunhe.pdf)
+- [Polkadot Forum Discussion: eBPF contracts hackathon](https://forum.polkadot.network/t/ebpf-contracts-hackathon/1084)
+- [Polkadot Forum Discussion: Exploring alternatives to WASM for smart contracts](https://forum.polkadot.network/t/exploring-alternatives-to-wasm-for-smart-contracts/2434)
 ### Ethereum Resources
 - [Ethereum Wire Protocol](https://github.com/ethereum/devp2p/blob/master/caps/eth.md)
 - [Ethereum Snap Protocol](https://github.com/ethereum/devp2p/blob/master/caps/snap.md)

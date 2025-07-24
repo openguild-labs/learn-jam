@@ -299,14 +299,72 @@ Virtual machine is used in two important parts of the Polkadot system: PVF and S
 - [sub0 Asia 2024 keynote - Gavin Wood on JAM A-Z](https://www.youtube.com/watch?v=tdvqkKdFTlw)
 - [Solidity compiler for PolkaVM](https://github.com/xermicus/revive)
 - [Demystifying JAM](https://blog.kianenigma.nl/posts/tech/demystifying-jam)
-### PolkaVM Resources
-- [revive](https://github.com/xermicus/revive?tab=readme-ov-file)
-- [PolkaVM Solidity IDE](https://hackmd.io/@T6Wf5EsOQKe-6wyPjJPtuw/B11BK5QXC)
-- [Announcing a new RISC-V based VM for smart contracts](https://forum.polkadot.network/t/announcing-polkavm-a-new-risc-v-based-vm-for-smart-contracts-and-possibly-more/3811)
-- [Stackoverflow - Registerd-based VM vs Stack-based VM](https://stackoverflow.com/questions/164143/registers-vs-stacks)
-- [Virtual Machine Showdown: Stack Versus Registers](https://static.usenix.org/events/vee05/full_papers/p153-yunhe.pdf)
-- [Polkadot Forum Discussion: eBPF contracts hackathon](https://forum.polkadot.network/t/ebpf-contracts-hackathon/1084)
-- [Polkadot Forum Discussion: Exploring alternatives to WASM for smart contracts](https://forum.polkadot.network/t/exploring-alternatives-to-wasm-for-smart-contracts/2434)
+### Awesome PolkaVM Resources
+
+#### 📚 **Resources**
+
+- **Official**
+    - [Polkadot Smart Contracts Documentation](https://docs.polkadot.com/develop/smart-contracts/) - Official documentation on developing smart contracts on Polkadot.
+- **Tutorials**
+    - [How to set up pallet-revive in Substrate Parachain Template](https://openguild.wtf/blog/polkadot/polkadot-how-to-set-up-pallet-revive-in-substrate-parachain-template) - A tutorial on integrating `pallet-revive` into a Substrate parachain.
+- **Articles**
+    - [Uniswap V2 on PolkaVM](https://medium.com/@OneBlockplus/uniswap-v2-successfully-launches-on-polkavm-a-milestone-for-polkadot-hub-98a1d76f5f1c) - An article about the launch of Uniswap V2 on PolkaVM.
+    - [Solidity Smart Contracts on Kusama](https://forum.polkadot.network/t/major-milestone-for-solidity-smart-contracts-first-part-of-the-preview-release-now-live-on-kusama/13506) - Forum discussion on a major milestone for Solidity smart contracts on Kusama.
+    - [PolkaVM Solidity IDE](https://hackmd.io/@T6Wf5EsOQKe-6wyPjJPtuw/B11BK5QXC) - An online IDE for writing and compiling Solidity for PolkaVM.
+    - [Announcing a new RISC-V based VM for smart contracts](https://forum.polkadot.network/t/announcing-polkavm-a-new-risc-v-based-vm-for-smart-contracts-and-possibly-more/3811) - The official announcement of PolkaVM on the Polkadot forum.
+    - [Stackoverflow - Registerd-based VM vs Stack-based VM](https://stackoverflow.com/questions/164143/registers-vs-stacks) - A discussion comparing register-based and stack-based virtual machine architectures.
+    - [Virtual Machine Showdown: Stack Versus Registers](https://static.usenix.org/events/vee05/full_papers/p153-yunhe.pdf) - A paper comparing stack-based and register-based VMs.
+    - [Polkadot Forum Discussion: eBPF contracts hackathon](https://forum.polkadot.network/t/ebpf-contracts-hackathon/1084) - Forum discussion about an eBPF contracts hackathon.
+    - [Polkadot Forum Discussion: Exploring alternatives to WASM for smart contracts](https://forum.polkadot.network/t/exploring-alternatives-to-wasm-for-smart-contracts/2434) - Forum discussion exploring alternatives to WASM for smart contracts on Polkadot.
+
+---
+
+#### 🛡️ **Security**
+
+- **Audits**
+
+---
+
+#### ✨ **Examples**
+
+- **Educational**
+    - [PolkaVM Deep Dive Series](https://www.youtube.com/watch?v=EFTMgkqZDNE&list=PLnhzaKpksqOK6H4_iG4oSMXhNNS0gvpdi) - A series of videos from Polkadot with deep dives into PolkaVM.
+- **Templates**
+    - [scaffold-dot](https://github.com/chungquantin/scaffold-dot) - A template for getting started with Polkadot development.
+    - [substrate-revive-node](https://github.com/openguild-labs/substrate-revive-node) - A Substrate node template with the `pallet-revive` for PolkaVM.  
+    - [PolkaVM examples](https://github.com/JamBrains/polkavm-examples) - Run different languages in PolkaVM
+    - [Rust Contract for PolkaVM](https://github.com/paritytech/rust-contract-template) - minimal template for a Rust contract targeting pallet_revive
+
+---
+
+#### 💪 **Practice**
+
+---
+
+#### 📚 **Libraries**
+- [Thirdweb for Kusama Asset Hub](https://thirdweb.com/kusama-asset-hub)
+
+---
+
+#### 🛠️ **Tools**
+
+- **General**
+    - [hardhat-polkadot](https://github.com/paritytech/hardhat-polkadot) - Hardhat plugin for Polkadot smart contract development.
+    - [foundry-polkadot](https://github.com/paritytech/foundry-polkadot) - Foundry integration for Polkadot smart contract development.
+    - [Polkadot Remix IDE](https://remix.polkadot.io/) - A version of the Remix IDE tailored for Polkadot development, including PolkaVM support.
+- **Utility**
+    - [Paseo Asset Hub ChainList](https://chainlist.org/chain/420420422) - Paseo Asset Hub RPC Configuration 
+    - [Faucet](https://faucet.polkadot.io/?parachain=1111) - Faucet testing tokens on Paseo Asset Hub
+
+---
+
+#### Support Channels
+
+- [OpenGuild Discord](https://discord.gg/C72FY2vjD6) - Official OpenGuild Discord server for community and support.
+- [Polkadot Discord](https://discord.gg/polkadot) - Official Polkadot Discord server for community and support.
+- [Substrate Stack Exchange](https://substrate.stackexchange.com/) - Q&A site for developers building with Substrate.
+- [Substrate Developers Telegram](https://t.me/substratedevs) - Telegram group for Substrate developers.
+
 ### Ethereum Resources
 - [Ethereum Wire Protocol](https://github.com/ethereum/devp2p/blob/master/caps/eth.md)
 - [Ethereum Snap Protocol](https://github.com/ethereum/devp2p/blob/master/caps/snap.md)
